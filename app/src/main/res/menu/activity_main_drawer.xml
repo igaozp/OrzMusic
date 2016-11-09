@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_format_list_bulleted_36pt_2x"
+            android:title="音乐列表"
+            android:id="@+id/nav_musicList" />
+        <item
+            android:icon="@drawable/ic_equalizer_black_36dp"
+            android:title="正在播放"
+            android:id="@+id/nav_playing" />
+        <item
+            android:icon="@drawable/ic_color_lens_black_36dp"
+            android:title="主题"
+            android:id="@+id/nav_theme" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings_36pt_2x"
+                android:title="设置" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit_to_app_36pt_2x"
+                android:title="退出" />
+        </menu>
+    </item>
+
+</menu>
